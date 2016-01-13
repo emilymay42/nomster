@@ -40,6 +40,9 @@ gem 'sass-rails'
 # Add pagination 
 gem 'will_paginate'
 
+# Add Simple Form
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
