@@ -46,6 +46,12 @@ gem 'simple_form'
 # Add devise
 gem 'devise', '>= 3.2.4'
 
+# Add Geocoder
+gem "geocoder"
+
+# Add figaro
+gem "figaro", ">= 1.0.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
