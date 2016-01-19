@@ -4,5 +4,8 @@ class Photo < ActiveRecord::Base
 
 	mount_uploader :picture, PictureUploader
 
+	validates :caption, presence: true, :length => {:minimum => 4}
+	validates :picture, presence: true
+
 
 end
